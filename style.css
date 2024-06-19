@@ -1,0 +1,9 @@
+.syled-table{
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 1em;
+    font-family: Arial, Helvetica, sans-serif;
+    min-width: 1350px;
+    box-shadow: 0 0 20px rgb(0, 0,o.15);
+
+}

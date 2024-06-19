@@ -1,0 +1,23 @@
+li{
+    color: blue;
+    font-size: 15px;
+    font-weight: bold;
+}
+#title{
+    font-size: 50px;
+    color: rgb(108, 243, 220);
+    font-weight: bold;
+}
+.subtitulos{
+    font-size: 35px;
+    color: coral;
+    font-weight: 500;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    align-items: center;
+    color: black;
+    background-color:goldenrod;
+}

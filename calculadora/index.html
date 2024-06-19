@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CALCULADORA SUM,RESTA,DIV,MUL</title>
+    <link rel="stylesheet" href="./style.css" />
+    <script src="./index.js"></script>
+  </head>
+  <body>
+    <div>
+
+      <div class="calculator">
+        <h2>calculadora</h2>
+        <p>
+          Captura el dato 1 <br><br><input type="number" name="dato1" id="dato1" placeholder=" dato 1"onblur="numero1()"
+          />
+        </p>
+        <p>
+          captura el dato 2 <br><br><input type="number" name="dato2" id="dato2" placeholder=" dato 2" onblur="numero2()"
+          />
+        </p>
+         Resultado <br><br><input type="number" id="resultado"><br><br>
+        <input type="button" value="suma" onclick="suma()" />
+        <input type="button" value="resta" onclick="resta()" />
+        <input type="button" value="Multiplicacion" onclick="multiplicacion()" />
+        <input type="button" value="Division" onclick="division()" />
+
+      </div>
+    </div>
+  </body>
+</html>
